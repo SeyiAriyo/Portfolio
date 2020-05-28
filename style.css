@@ -4,20 +4,20 @@
 
 /*general form*/
 body {
-	background-image: url(/Users/Ghostman/cmsc330fall19public/thinkful/portfolio/images/body.jpg);
+	background-image: url(/portfolio/images/body.jpg);
     margin: 0;
 }
 
 header{
     height: 140px;
 	background-color: #000000;
-	background-image:url(/Users/Ghostman/cmsc330fall19public/thinkful/portfolio/images/dark.png);
+	background-image:url(/portfolio/images/dark.png);
 }
 
 footer{
 	height: 170px;
 	background-color: #000000;
-	background-image:url(/Users/Ghostman/cmsc330fall19public/thinkful/portfolio/images/dark.png);
+	background-image:url(/images/dark.png);
 }
 .group {
     display: flex;
