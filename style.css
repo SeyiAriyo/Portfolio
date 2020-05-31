@@ -55,13 +55,11 @@ footer{
 #contact ul li a:hover { color: #403933;}
 
 img{
-	width: 100%;
+  width: 100%;
+  border-radius: 50%;
 }
 
-.wrapper {
-	width: 580px;
-	margin: auto;	
-}
+
 
 /*top bar*/
 header h1 {
@@ -253,6 +251,7 @@ form label {
 
   .group {
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -260,7 +259,9 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 100%;
+  max-width:500px;
+
 }
 #contact .group .item-bottom{
         margin-top: 0px;
